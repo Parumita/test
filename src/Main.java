@@ -38,12 +38,5 @@ public class Main {
         });
 
         System.out.println(sortedemployeeList.stream().count());
-        sortedemployeeList.forEach(employee ->
-        {
-            System.out.println(employee.getName());
-            System.out.println(employee.getEmployeeAge(employee.getName()) );
-        });
-
-
     }
 }
